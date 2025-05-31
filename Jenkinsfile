@@ -6,5 +6,8 @@ pipeline{
                 echo "work done"
             }
         }
+        stage("stage2"){
+            steps{
+                echo "final"
     }
 }
